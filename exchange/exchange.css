@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+.btn{
+    color: antiquewhite;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+.img{
+    width: 250px;
+    height: 250px;
+}
+.currency{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency select{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid slategrey;
+    font-size: 20px;
+    background: transparent;
+    appearance: none;
+}
+.currency input{
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+.swap-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+select:focus,input:focus,button:focus{
+    outline:0;
+}
